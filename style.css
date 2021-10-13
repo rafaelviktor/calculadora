@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    padding-right: 100px;
+    padding-inline-start: 15px;
+    margin-block-start: 6px;
+    margin-block-end: 6px;
+    border-bottom: 1px solid #9a9a9a;
+}
+p {
+    text-align: center;
+}
+noscript > p {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #ffacac;
+    border: 1px solid rgb(187, 11, 11);
+    border-radius: 10px;
+    padding: 10px;
+}
+#link {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #2222b1;
+    cursor: pointer;
+    font-size: 1em;
+    float: right;
+    padding-inline-end: 15px;
+    margin-block-start: 6px;
+    margin-block-end: 6px;
+}
+#link:hover {
+    color: #5858f8;
+}
+#link:active {
+    color: #0000ad;
+}
+#titulo {
+    text-align: center;
+    color: #FFF;
+}
+body {
+    background: linear-gradient(to top, #0d2e53, #165cac) fixed;
+}
+main {
+    background-color: white;
+    text-align: justify;
+    max-width: 230px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 55%);
+}
+#alert {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    max-width: 230px;
+    margin: 0;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0px 3px 6px 1px rgb(0 0 0 / 55%);
+}
+form {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+input[type="number"] {
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #6d6d6d;
+}
+#botao {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px;
+    background-color: #165cac;
+    border: none;
+}
+#botao:hover {
+    background-color: #2779d6;
+    cursor: pointer;
+}
+#botao:active {
+    background-color: #0d233d;
+}
+#overlay {
+    display: none;
+    opacity: 0.8;
+    background-color:#000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#notaok {
+    font-weight: bold;
+    color: green;
+}
+#notaruim {
+    font-weight: bold;
+    color: #b80909;
+}

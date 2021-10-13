@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Nota UNIFOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="alert">
+        <h2>Resultado:</h2>
+        <p>Aluno aprovado com nota final: <span id="notaok">7.0</span></p>
+        <button type="button" id="link" onclick="fechar()">Fechar</button>
+    </div>
+    <h1 id="titulo">Calculadora de Nota UNIFOR</h1>
+    <noscript>
+        <p>Erro! Seu navegador não suporta javascript ou o mesmo está desativado.</p>
+    </noscript>
+    <main>
+    <form>
+    <div>
+        <h1>AV1</h1>
+    <input type="number" id="av1">
+    </div>
+    <div>
+        <h1>AV2</h1>
+        <input type="number" id="av2">
+    </div>
+    <div>
+        <h1>AV3</h1>
+        <input type="number" id="av3">
+    </div>
+    <br>
+    <button type="button" id="botao" onclick="calcularnota()">Calcular</button>
+    </form>
+    </main>
+</body>
+</html>
