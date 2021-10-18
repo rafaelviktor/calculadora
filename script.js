@@ -24,6 +24,7 @@ function calcularnota() {
     document.getElementsByTagName("main")[0].style.filter = "blur(3px)";
     for (let i = 0; i < 4; i++)
     document.getElementsByTagName("h1")[i].style.filter = "blur(3px)";
+}
 
 function fechar() {
     document.getElementById("alert").style.display = "none";
