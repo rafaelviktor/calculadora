@@ -1,7 +1,7 @@
 function calcularnota() {
-    var nav1 = parseInt(document.getElementById("av1").value);
-    var nav2 = parseInt(document.getElementById("av2").value);
-    var nav3 = parseInt(document.getElementById("av3").value);
+    var nav1 = parseFloat(document.getElementById("av1").value);
+    var nav2 = parseFloat(document.getElementById("av2").value);
+    var nav3 = parseFloat(document.getElementById("av3").value);
     
     var notaparcial, notafinal;
     
@@ -24,7 +24,6 @@ function calcularnota() {
     document.getElementsByTagName("main")[0].style.filter = "blur(3px)";
     for (let i = 0; i < 4; i++)
     document.getElementsByTagName("h1")[i].style.filter = "blur(3px)";
-}
 
 function fechar() {
     document.getElementById("alert").style.display = "none";
